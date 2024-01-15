@@ -1,0 +1,18 @@
+<!-- Add dependencies -->
+<dependencies>
+    <!-- Add your dependencies here -->
+</dependencies>
+
+<!-- Add the Maven War Plugin to build a war file -->
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.2.3</version>
+            <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
